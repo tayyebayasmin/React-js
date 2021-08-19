@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+var show=React.createElement('h1',null,"Hello World")
+var element=(
+<div>
+<p>my first paragraph</p>
+<h1>tayyeba</h1>
+</div>)
+
+var element1=React.createElement('div',null,React.createElement('h1',null,'tayyeba'))
+ReactDOM.render(<>
+{element1}
+{show}
+<h1>tayyeba yasmin</h1>
+{element}
+</>
+,
+
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

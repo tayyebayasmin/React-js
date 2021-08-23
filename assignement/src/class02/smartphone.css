@@ -1,0 +1,23 @@
+.phone{
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    column-count: 2;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+img{
+    height:200px;
+    width:200px    
+}
+p{
+    color: #333e48;
+    font-size: 20px;
+    font-weight: 500;
+}
+span{
+    color: #7a7a7a;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 14px;
+}

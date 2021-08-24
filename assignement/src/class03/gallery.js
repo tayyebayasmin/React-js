@@ -5,8 +5,9 @@ import './gallery.css'
  const Gallery=()=> {
 
     return (
-        <div>
-            {Data.map((item) => (
+        <>
+        <h1>Gallery</h1>
+         <div className="maincard">   {Data.map((item) => (
                 <div class="card" style={{width: "18rem"}}>
                     <img src={item.image} class="card-img-top" />
                         <div class="card-body">
@@ -15,12 +16,12 @@ import './gallery.css'
                             <a href="#" class="btn btn-primary">More Info</a>
                         </div>
                 </div>
-        ))}
+        ))}</div>
 
 
 
 
-                </div>
+    </>
             )
 }
 export default Gallery;

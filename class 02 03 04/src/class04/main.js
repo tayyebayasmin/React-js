@@ -8,15 +8,15 @@ export default function Main() {
     return (
         <div>
             <Header/>
-            {/* <Props data={Data}/> */}
+            <Props data={Data}/>
 
-            <div className="cardmain">
+            {/* <div className="cardmain">
                 <WithoutMap data={Data[0]} />
                 <WithoutMap data={Data[1]} />
                 <WithoutMap data={Data[2]} />
                 <WithoutMap data={Data[3]} />
                 <WithoutMap data={Data[4]} />
-            </div>
+            </div> */}
         </div>
     )
 }

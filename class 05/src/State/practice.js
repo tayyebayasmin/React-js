@@ -7,7 +7,9 @@ export default function Practice() {
     const backwardhandler=()=>{
         // counter=counter-1;
         // console.log(counter)
+        if(counter>0){
         setcounter(counter-1)
+        }
     }
     const forwardhandler=()=>{
         // counter=counter+1;

@@ -1,4 +1,4 @@
 ## Tally Counter App
 
-Surge link : mytallycounter.surge.sh
+Surge link :(mytallycounter.surge.sh)
 

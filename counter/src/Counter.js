@@ -31,8 +31,8 @@ export default function Counter() {
         <div className="count" style={{ backgroundColor: color }}>
             <CounterHeader counter={counter} color={color} />
             <div className="btnclass">
-                <button onClick={backwardbtn}>-</button>
-                <button onClick={forwardbtn}>+</button>
+                <button onClick={backwardbtn} style={{ color: color }}>-</button>
+                <button onClick={forwardbtn} style={{ color: color }}>+</button>
             </div>
             <button className="reset" onClick={Reset}>Reset</button>
             <div className="bottom">

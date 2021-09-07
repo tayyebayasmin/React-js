@@ -1,0 +1,25 @@
+
+.accordion{
+  background-color: #fff;
+  width: 800px;
+  margin:0 auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 10%;
+}
+button{
+  background-color:transparent;
+  color:red;
+  border: 0;
+  font-size: 22px;
+}
+.accordion2{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+h1{
+  text-align: center;
+}

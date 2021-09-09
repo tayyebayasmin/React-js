@@ -13,6 +13,21 @@ button{
     padding:10px;
 
 }
+
+.card{
+    text-align: center;
+    margin: 10px;
+    padding:5px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    
+  
+  }
+  .card-img-top{
+    border-radius: 100px;
+    height: 250px;
+  }
 .buttons{
     display: flex;
     flex-direction: row;
@@ -20,4 +35,18 @@ button{
 }
 button:hover{
     background-color:rgba(63, 36, 70, 0.479) ;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    background-color:rgb(44, 44, 87);
+    color:#fff;
+    font-family: cooper;
+}
+.cards{
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:space-around;
+margin: 8%;
 }
